@@ -1,6 +1,12 @@
-# SNIPS Bring! Shopping List
+# Old -SNIPS Bring! Shopping List- Refactored for Rhasspy (Rhasspy-Hermes-App)
 
-Connect your SNIPS Assistant to your Bring! shopping list!
+## Preamble
+
+The Original was written by https://github.com/philipp2310 (https://github.com/philipp2310/snips-bring-shopping). 
+I changed a few things to make it work on Rhasspy.
+There is also a List of Items for shopping lists (SlotsAndSentences4Rhasspy/bringItems) a manual may come... or not.
+
+Connect your Rhasspy Assistant to your Bring! shopping list!
 With Bring! your list will be available on Android, iOs and via Web Access.
 ## Languages
 - German ✓
@@ -18,7 +24,7 @@ With Bring! your list will be available on Android, iOs and via Web Access.
 - add complete lists from receipt
 
 ## Setup
-This skill for SNIPS takes two secret parameters:
+This skill for Rhasspy takes two secret parameters:
 The first one is your unique user ID, the second one is the unique ID of your shopping list.
 You can get these here after you fill in your credentials: https://api.getbring.com/rest/bringlists?email=~mail-adress~&password=~password~
 
@@ -26,25 +32,25 @@ You can get these here after you fill in your credentials: https://api.getbring.
 ### Deutsch:
 
 Add:  
-Hey Snips, schreibe Mehl auf meine Einkaufsliste  
-Hey Snips, bitte füge Eier zum Einkaufszettel hinzu  
+Hey <Wakeword>, schreibe Mehl auf meine Einkaufsliste  
+Hey <Wakeword>, bitte füge Eier zum Einkaufszettel hinzu  
 
 Remove:  
-Hey Snips, streiche Mehl von meiner Einkaufsliste  
+Hey <Wakeword>, streiche Mehl von meiner Einkaufsliste  
 
 Read:  
-Hey Snips, les mir meine Einkaufsliste vor  
+Hey <Wakeword>, les mir meine Einkaufsliste vor  
 
 Ask:  
-Hey Snips, habe ich Kartoffeln schon auf meiner Einkaufsliste?  
+Hey <Wakeword>, habe ich Kartoffeln schon auf meiner Einkaufsliste?  
 
 (idea) Change Quantity:  
-Hey Snips, füge zwei Kästen Bier zu meiner Liste hinzu  
+Hey <Wakeword>, füge zwei Kästen Bier zu meiner Liste hinzu  
 - Es befinden sich bereits zwei Kästen Bier auf deiner Liste, soll ich "zwei Kästen" hinzufügen?  
 Ja/Nein, mach insgesamt 3 Kästen.  
 
 (idea) Add List:  
-Hey Snips, schreibe alles für Pizza Hawaii auf meine Einkaufsliste  
+Hey <Wakeword>, schreibe alles für Pizza Hawaii auf meine Einkaufsliste  
 - Ok, ich füge hinzu:
 - Mehl, 400g  
 Nein/Stop -> Ok, kein Mehl  
@@ -58,7 +64,5 @@ Ja/Stop -> Ok, ich setze Salz auf die Einkaufsliste
 - Wasser
 
 (idea) Show List:  
-Hey Snips, zeige mir meine Einkaufsliste  
+Hey <Wakeword>, zeige mir meine Einkaufsliste  
 - <keine Antwort, Anzeige auf Display>  
-
-
