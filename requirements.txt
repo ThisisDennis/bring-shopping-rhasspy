@@ -1,0 +1,5 @@
+# Bindings for the hermes protocol 
+#hermes-python>=0.1
+rhasspy-hermes-app
+BringApi
+requests
