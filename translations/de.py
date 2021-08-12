@@ -34,7 +34,7 @@ READ_NONE = ["Du hast nichts auf deiner Einkaufsliste",
 ### Add items
 ### Sentences that can fit a list (GENERAL_LIST) or a single value
 ADD_ANY = ["Ok, ich schreibe {} auf den Einkaufszettel",
-           "Ich habe {} auf den Einkaufszettel geschrieb"]
+           "Ich habe {} auf den Einkaufszettel geschrieben"]
 ### Sentences that can fit only a single value
 ADD_ONE = ADD_ANY + ["{} wurde auf die Einkaufsliste geschrieben",
                      "{} wurde hinzugefügt"]
